@@ -1,0 +1,39 @@
+{
+  "title": "Protocoles métier",
+  "intro": "Les règles métier du libraire fonctionnent comme des protocoles de communication : elles encadrent chaque échange entre acteurs.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+    "alt": "Documents et règles professionnelles",
+    "credit": "You X Ventures — Unsplash"
+  },
+  "rules": [
+    {
+      "id": 1,
+      "rule": "Un livre ne peut être vendu en dessous du prix éditeur, sauf promotion autorisée."
+    },
+    {
+      "id": 2,
+      "rule": "Toute commande génère une confirmation et un bon de commande numéroté unique."
+    },
+    {
+      "id": 3,
+      "rule": "Les retours sont acceptés sous 7 jours pour ouvrages non endommagés."
+    },
+    {
+      "id": 4,
+      "rule": "Les clients institutionnels bénéficient d'une remise négociée par contrat-cadre."
+    },
+    {
+      "id": 5,
+      "rule": "Le réapprovisionnement se déclenche automatiquement sous un seuil minimum de stock."
+    },
+    {
+      "id": 6,
+      "rule": "Tout paiement donne lieu à une facture ou un reçu numérique horodaté."
+    },
+    {
+      "id": 7,
+      "rule": "Les commandes fournisseurs requièrent validation du responsable de la librairie."
+    }
+  ]
+}

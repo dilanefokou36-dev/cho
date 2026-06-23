@@ -1,0 +1,37 @@
+{
+  "title": "Modélisation réseau",
+  "intro": "Le projet 3GI transpose les concepts réseau (émetteur, récepteur, protocole, message) au métier de libraire. Chaque transaction commerciale est un échange structuré.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80",
+    "alt": "Serveurs et équipement réseau",
+    "credit": "Control Your Cash — Unsplash"
+  },
+  "mapping": [
+    { "network": "Émetteur (source)", "metier": "Client passant commande ; libraire publiant son catalogue" },
+    { "network": "Récepteur (destination)", "metier": "Libraire recevant la commande ; client recevant la livraison" },
+    { "network": "Protocole", "metier": "Règles de vente, politique de retour, conditions de commande" },
+    { "network": "Message", "metier": "Bon de commande, facture, confirmation, devis, reçu" },
+    { "network": "Canal", "metier": "Application web, mobile, comptoir physique" },
+    { "network": "Accusé de réception", "metier": "Confirmation de commande, notification de livraison" },
+    { "network": "Routage", "metier": "Attribution au bon vendeur ou entrepôt de la librairie" },
+    { "network": "Adresse", "metier": "Identifiant librairie (storeId), coordonnées GPS" }
+  ],
+  "actors": [
+    { "actor": "Client particulier", "role": "Achète pour usage personnel", "networkRole": "Émetteur de requête" },
+    { "actor": "Client institutionnel", "role": "Commandes groupées (écoles, bibliothèques)", "networkRole": "Émetteur professionnel" },
+    { "actor": "Libraire (admin)", "role": "Gère catalogue, prix, stratégie", "networkRole": "Fournisseur de service principal" },
+    { "actor": "Vendeur / employé", "role": "Ventes, conseil, caisse", "networkRole": "Fournisseur secondaire" },
+    { "actor": "Éditeur / distributeur", "role": "Approvisionne le stock", "networkRole": "Fournisseur intermédiaire" },
+    { "actor": "Plateforme BookStore", "role": "Traite et route les échanges", "networkRole": "Récepteur / routeur métier" }
+  ],
+  "scenario": {
+    "title": "Scénario : commande client",
+    "steps": [
+      "Le client (émetteur) envoie une requête : recherche ou commande.",
+      "La plateforme (récepteur) authentifie et applique le protocole métier (stock, prix, retours).",
+      "Un message est généré : confirmation, numéro de commande, facture.",
+      "Un canal asynchrone notifie le libraire (alerte stock, commande).",
+      "Le client reçoit l'accusé de réception et le suivi de livraison."
+    ]
+  }
+}

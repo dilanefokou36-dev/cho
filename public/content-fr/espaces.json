@@ -1,0 +1,60 @@
+{
+  "title": "Espaces d'exercice",
+  "intro": "Le libraire peut exercer dans des contextes très variés, chacun avec ses clients, ses contraintes et son ambiance. Au Cameroun, les espaces de vente de livres reflètent la diversité économique et culturelle du pays, des librairies modernes de Yaoundé aux étals de livres d'occasion des marchés.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=1200&q=80",
+    "alt": "Espace de lecture en librairie",
+    "credit": "Elisa Ventur — Unsplash"
+  },
+  "spaces": [
+    {
+      "name": "Librairie indépendante",
+      "description": "Boutique de quartier ou spécialisée (généraliste, scolaire, religieux). Au Cameroun, ces librairies sont souvent situées en centre-ville ou à proximité des établissements scolaires.",
+      "examples": "Librairie des Écoles (Yaoundé, Douala), Librairie Saint-Paul (Yaoundé, Douala), Librairie de l'Université de Yaoundé I",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&q=80",
+      "credit": "Anastasia Zhenina — Unsplash"
+    },
+    {
+      "name": "CLAC — Centre de Lecture et d'Animation Culturelle",
+      "description": "Réseau de médiathèques-librairies présent dans plusieurs pays d'Afrique, dont le Cameroun. Propose un espace de lecture, une librairie, une bibliothèque et des animations culturelles dans un même lieu.",
+      "examples": "CLAC Yaoundé (Mvog-Mbi), CLAC Douala (Bonanjo)",
+      "image": "https://images.unsplash.com/photo-1659439267688-71cc201d09db?w=600&q=80",
+      "credit": "Gabby K — Unsplash"
+    },
+    {
+      "name": "Grande surface et supermarché",
+      "description": "Enseignes multi-produits qui consacrent un rayon aux livres, fournitures scolaires et articles de bureau.",
+      "examples": "CDE (Cameroonian Duty Free), Santa Lucia, Score",
+      "image": "https://images.unsplash.com/photo-1723990726152-0257c30d82e4?w=600&q=80",
+      "credit": "Eliott Reyna — Unsplash"
+    },
+    {
+      "name": "Marché et vente à l'étalage",
+      "description": "Vente de livres d'occasion et de manuels scolaires sur les marchés populaires. Un espace informel mais essentiel pour l'accès au livre à moindre coût au Cameroun.",
+      "examples": "Marché Mfoundi (Yaoundé), Marché Congo (Douala), Marché Central (Douala)",
+      "image": "https://images.unsplash.com/photo-1643250048998-7ffa83ae2c63?w=600&q=80",
+      "credit": "Syd Wachs — Unsplash"
+    },
+    {
+      "name": "Librairie universitaire et campus",
+      "description": "Librairies situées sur les campus universitaires, spécialisées dans les manuels académiques, les polycopiés et la documentation scientifique.",
+      "examples": "Librairie de l'Université de Yaoundé I, Université de Dschang, Université de Douala, Université de Buéa",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80",
+      "credit": "National Cancer Institute — Unsplash"
+    },
+    {
+      "name": "Librairie religieuse",
+      "description": "Librairies spécialisées dans les ouvrages religieux (bibles, catéchisme, théologie) très présentes au Cameroun.",
+      "examples": "Librairie Saint-Paul (Yaoundé), Librairie Catholique (Douala), librairies protestantes",
+      "image": "https://images.unsplash.com/photo-1775224561029-1a830b796e9e?w=600&q=80",
+      "credit": "Aaron Burden — Unsplash"
+    },
+    {
+      "name": "Bouquiniste",
+      "description": "Vente de livres d'occasion sur les marchés, les quais ou en boutique spécialisée. Au Cameroun, les bouquinistes animent les marchés populaires et offrent une seconde vie aux livres à des prix accessibles.",
+      "examples": "Marché Mfoundi (Yaoundé), Marché Congo (Douala), bouquinistes du Boulevard de la Liberté (Douala)",
+      "image": "https://images.unsplash.com/photo-1654124803048-597350406baf?w=600&q=80",
+      "credit": "Unsplash"
+    }
+  ]
+}

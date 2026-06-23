@@ -1,0 +1,62 @@
+{
+  "title": "Difficultés du métier",
+  "intro": "Exercer le métier de libraire comporte de nombreux défis. Au Cameroun, ces difficultés sont amplifiées par le contexte économique, logistique et réglementaire spécifique au pays.",
+  "challenges": [
+    {
+      "title": "Coûts d'importation élevés",
+      "description": "80% des livres vendus au Cameroun sont importés de France. Les coûts de transport maritime (4 à 8 semaines), l'assurance, les droits de douane et la TVA de 19,25% augmentent considérablement le prix final du livre, le rendant moins accessible.",
+      "impact": "Prix des livres 30 à 50% plus élevés qu'en France",
+      "image": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=800&q=80",
+      "credit": "Alexander Shatov — Unsplash"
+    },
+    {
+      "title": "Faible pouvoir d'achat des clients",
+      "description": "Avec un salaire minimum autour de 42 000 FCFA et une population majoritairement jeune, l'achat de livres (souvent 5 000 à 15 000 FCFA pièce) est un luxe pour beaucoup de Camerounais. Le livre est concurrencé par d'autres besoins essentiels.",
+      "impact": "Marché du livre limité à une clientèle urbaine et aisée",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80",
+      "credit": "Rebecca Mifsud — Unsplash"
+    },
+    {
+      "title": "Concurrence du marché informel et de la contrefaçon",
+      "description": "Les photocopies illégales de manuels, les livres contrefaits et le marché de l'occasion informel (marchés populaires) concurrencent directement les librairies officielles. L'absence de contrôle renforce ce phénomène.",
+      "impact": "Perte de chiffre d'affaires pour les libraires officiels",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
+      "credit": "John Schnobrich — Unsplash"
+    },
+    {
+      "title": "Saisonnalité extrême de l'activité",
+      "description": "Le chiffre d'affaires des librairies camerounaises est concentré sur 2 à 3 mois (août-octobre, rentrée scolaire et universitaire). Le reste de l'année, l'activité est très ralentie, rendant la trésorerie difficile à gérer.",
+      "impact": "Trésorerie tendue une grande partie de l'année",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+      "credit": "Markus Spiske — Unsplash"
+    },
+    {
+      "title": "Infrastructures et logistique",
+      "description": "Les coupures électriques fréquentes, la connexion internet instable et l'état des routes compliquent la gestion quotidienne d'une librairie. L'absence de système bancaire moderne pour les paiements par carte est aussi un frein.",
+      "impact": "Nécessité d'investir dans des groupes électrogènes et solutions de secours",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+      "credit": "Annie Spratt — Unsplash"
+    },
+    {
+      "title": "Manque de formation spécialisée",
+      "description": "Il n'existe pas au Cameroun de formation dédiée au métier de libraire. Les professionnels apprennent sur le tas, sans accès aux formations et réseaux professionnels existant en Europe (CFA Librairie, SLF, etc.).",
+      "impact": "Difficulté à professionnaliser le secteur",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "credit": "Alexandre Debiève — Unsplash"
+    }
+  ],
+  "solutions": [
+    "Développer des coopératives d'achat entre libraires camerounais pour mutualiser les coûts d'importation",
+    "Créer des partenariats avec les éditeurs locaux pour réduire la dépendance aux importations",
+    "Proposer des services à valeur ajoutée (photocopies, impression, formation) pour diversifier les revenus",
+    "Utiliser le mobile money et les réseaux sociaux pour toucher une clientèle plus large",
+    "Militer pour une réduction de la TVA sur les livres au Cameroun",
+    "Développer le marché du livre d'occasion certifié pour répondre au faible pouvoir d'achat",
+    "Organiser des événements culturels (FILYA, salons) pour dynamiser le secteur"
+  ],
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=1200&q=80",
+    "alt": "Défis du métier de libraire",
+    "credit": "Alexander Shatov — Unsplash"
+  }
+}

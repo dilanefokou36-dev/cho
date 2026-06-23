@@ -1,0 +1,50 @@
+{
+  "title": "Le métier de libraire",
+  "intro": "Un libraire est un professionnel du livre qui combine expertise commerciale, sens culturel et relation de confiance avec les lecteurs. Au Cameroun comme ailleurs, le libraire joue un rôle clé dans la chaîne du livre et la diffusion des savoirs.",
+  "definition": [
+    "Commercialise des livres, revues et supports (papier, CD, DVD, USB, e-books)",
+    "Conseille les lecteurs dans leurs choix de lecture",
+    "Sélectionne et met en valeur les ouvrages en boutique",
+    "Gère un stock et les relations avec éditeurs et distributeurs",
+    "Anime la vie culturelle locale (dédicaces, clubs de lecture, rencontres)",
+    "Au Cameroun, le libraire est souvent aussi fournisseur de fournitures scolaires et de bureautique"
+  ],
+  "categories": [
+    {
+      "type": "Librairie indépendante",
+      "description": "Librairie de quartier ou spécialisée, souvent généraliste avec un rayon scolaire important au Cameroun. Exemples : Librairie des Écoles (Yaoundé, Douala), Librairie Saint-Paul (Yaoundé), Librairie de l'Université.",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=800&q=80",
+      "credit": "Anastasia Zhenina — Unsplash"
+    },
+    {
+      "type": "Grande surface et librairie en ligne",
+      "description": "Enseignes multi-produits (CDE, Santa Lucia) et plateformes e-commerce locales qui vendent des livres au Cameroun.",
+      "image": "https://images.unsplash.com/photo-1609895720459-394a6a8c99ed?w=800&q=80",
+      "credit": "Eliott Reyna — Unsplash"
+    },
+    {
+      "type": "CLAC — Centre de Lecture et d'Animation Culturelle",
+      "description": "Réseau de médiathèques et librairies implanté dans plusieurs villes d'Afrique francophone, dont le Cameroun (Yaoundé, Douala). Allie vente de livres, lecture publique et animations culturelles.",
+      "image": "https://images.unsplash.com/photo-1600792174277-8d734290a61f?w=800&q=80",
+      "credit": "Gabby K — Unsplash"
+    },
+    {
+      "type": "Libraire salarié en institution",
+      "description": "Libraire travaillant dans une structure éducative (université, école) ou au sein d'une organisation culturelle. Exemples : librairies des campus de Yaoundé I, Dschang, Douala.",
+      "image": "https://images.unsplash.com/photo-1572097560317-1189048dac38?w=800&q=80",
+      "credit": "National Cancer Institute — Unsplash"
+    }
+  ],
+  "conditions": [
+    { "label": "Horaires", "value": "Journée continue, souvent 8h-18h du lundi au samedi. Ouverture possible le dimanche dans les zones commerçantes." },
+    { "label": "Environnement", "value": "Boutique physique en centre-ville ou quartier, étal de marché, plateforme en ligne" },
+    { "label": "Statut", "value": "Gérant (propriétaire), employé, auto-entrepreneur, libraire associatif (CLAC)" },
+    { "label": "Régime fiscal (Cameroun)", "value": "Commerce de détail — TVA de 19,25%, régimes d'imposition selon le chiffre d'affaires (réel, simplifié, synthétique)" },
+    { "label": "Contraintes", "value": "Coûts d'importation élevés (80% des livres viennent de France), faible pouvoir d'achat, concurrence du marché parallèle" }
+  ],
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1772617616232-b9ed723ab115?w=1200&q=80",
+    "alt": "Lecture dans un fauteuil entouré de livres",
+    "credit": "Seven Shooter — Unsplash"
+  }
+}

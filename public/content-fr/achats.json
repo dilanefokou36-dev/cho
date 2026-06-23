@@ -1,0 +1,118 @@
+{
+  "title": "Circuit d'achat et flux financiers",
+  "intro": "Comprendre comment les livres arrivent en librairie et comment l'argent circule entre les différents acteurs de la chaîne du livre est essentiel pour saisir l'économie du métier. Au Cameroun, la chaîne du livre présente des spécificités liées à l'importation massive depuis l'Europe et au poids du secteur scolaire.",
+  "circuit": {
+    "title": "La chaîne du livre au Cameroun",
+    "description": "Au Cameroun, le circuit du livre emprunte deux voies principales : l'importation (80% des livres, principalement depuis la France) et la production locale via les éditeurs camerounais.",
+    "steps": [
+      {
+        "step": 1,
+        "actor": "Auteur",
+        "action": "Écrit le manuscrit et le soumet à un éditeur (français ou camerounais)",
+        "detail": "L'auteur perçoit des droits d'auteur (8-15% du prix de vente HT). Les auteurs camerounais publient souvent localement (Éditions Clé, Ifrikiya, PUY) ou auprès d'éditeurs français"
+      },
+      {
+        "step": 2,
+        "actor": "Éditeur",
+        "action": "Sélectionne, finance, imprime et distribue l'ouvrage",
+        "detail": "Éditeurs français : Hachette, Editis, Madrigall. Éditeurs camerounais : Clé (Yaoundé, 1963), Ifrikiya (Douala), Presses Universitaires de Yaoundé, Akoma Mbah, Proximité"
+      },
+      {
+        "step": 3,
+        "actor": "Distributeur / Importateur",
+        "action": "Assure le stockage, le transport (maritime ou aérien) et le dédouanement",
+        "detail": "Délai d'importation : 4 à 8 semaines par voie maritime. Coûts additionnels : fret, assurance, droits de douane, TVA de 19,25%. Distributeurs locaux : SOCCAM, SEP"
+      },
+      {
+        "step": 4,
+        "actor": "Libraire",
+        "action": "Commande, met en rayon et vend au client final",
+        "detail": "Achète à 60-65% du prix public, revend à 100% (marge de 35-40%). La marge est souvent réduite par les coûts d'importation et de transport local"
+      },
+      {
+        "step": 5,
+        "actor": "Client (lecteur)",
+        "action": "Achète le livre au prix public",
+        "detail": "Paiement en espèces, carte bancaire ou mobile money (Orange Money, MTN Mobile Money). Le pouvoir d'achat limité influence fortement les décisions d'achat"
+      }
+    ]
+  },
+  "moneyFlow": {
+    "title": "Flux financiers (contexte camerounais)",
+    "description": "Voici comment l'argent circule entre les acteurs lors d'une vente de livre en librairie au Cameroun, en prenant l'exemple d'un livre importé de France vendu 10 000 FCFA.",
+    "participants": [
+      {
+        "actor": "Client",
+        "pays": "10 000 FCFA (prix public)",
+        "receives": "Le livre",
+        "type": "Acheteur final"
+      },
+      {
+        "actor": "Libraire",
+        "pays": "~5 500 FCFA (prix d'achat + frais d'importation + TVA)",
+        "receives": "10 000 FCFA (marge brute ~4 500 FCFA avant charges)",
+        "type": "Revendeur"
+      },
+      {
+        "actor": "Distributeur / Transitaire",
+        "pays": "Prix éditeur + frais de transport",
+        "receives": "Commission de distribution + frais de transit",
+        "type": "Intermédiaire logistique"
+      },
+      {
+        "actor": "Éditeur (France)",
+        "pays": "Droits d'auteur (8-15%) + frais d'impression",
+        "receives": "Prix de vente à l'export (généralement 50-55% du prix public)",
+        "type": "Producteur"
+      },
+      {
+        "actor": "État camerounais",
+        "pays": "—",
+        "receives": "TVA (19,25%) et droits de douane sur l'importation",
+        "type": "Fiscalité"
+      },
+      {
+        "actor": "Auteur",
+        "pays": "Son travail d'écriture",
+        "receives": "Droits d'auteur (8-15% du prix HT)",
+        "type": "Source créative"
+      }
+    ]
+  },
+  "paymentMethods": [
+    {
+      "method": "Espèces",
+      "description": "Paiement direct en magasin. Reste le moyen le plus utilisé au Cameroun pour les achats courants.",
+      "limit": "FCFA — pas de plafond légal spécifique"
+    },
+    {
+      "method": "Carte bancaire",
+      "description": "Paiement par terminal électronique (TPE), principalement dans les librairies des grandes villes et supermarchés.",
+      "limit": "Variable selon la banque"
+    },
+    {
+      "method": "Mobile Money",
+      "description": "Orange Money et MTN Mobile Money — moyens de paiement incontournables au Cameroun. Permettent les transferts d'argent et les paiements marchands via téléphone portable.",
+      "limit": "Plafond journalier selon l'opérateur (généralement 500 000 à 2 000 000 FCFA)"
+    },
+    {
+      "method": "Virement bancaire",
+      "description": "Utilisé pour les commandes groupées (écoles, administrations, institutions).",
+      "limit": "Aucune limite"
+    },
+    {
+      "method": "Paiement en ligne",
+      "description": "Carte bancaire internationale ou mobile money via les plateformes e-commerce locales.",
+      "limit": "Variable selon la plateforme"
+    }
+  ],
+  "schéma": {
+    "title": "Schéma du circuit économique (contexte Cameroun)",
+    "diagram": "                         ┌─────────────────┐\n                         │    Auteur        │\n                         │ (Camerounais ou   │\n                         │  français)        │\n                         └────────┬────────┘\n                                  │ Droits d'auteur (8-15%)\n                                  ▼\n┌──────────┐    Vente export   ┌──────────┐    Commande    ┌──────────┐\n│ Libraire │◄──────────────────│ Éditeur  │◄──────────────│ Client   │\n│ (Cameroun)│    (France ou     │(France ou│    (FCFA)      │(Cameroun)│\n│ TVA 19.25%│    local)         │ Cameroun)│               │          │\n│ Marge 35%│──────────────────►│          │──────────────►│          │\n└──────────┘    Paiement à     └──────────┘   Paiement    └──────────┘\n       │         65% du prix                         (Espèces, CB,\n       │                                             Mobile Money)\n       ▼\n┌──────────────────┐\n│   Transit /       │\n│   Dédouanement    │\n│   (Fret, douane)  │\n└──────────────────┘"
+  },
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=80",
+    "alt": "Comptabilité et flux financiers",
+    "credit": "Markus Spiske — Unsplash"
+  }
+}

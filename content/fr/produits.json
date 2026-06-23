@@ -1,0 +1,33 @@
+{
+  "title": "Produits & services",
+  "intro": "Le fonds d'une librairie et l'offre de services définissent son identité et sa clientèle cible. Au Cameroun, le secteur scolaire et les fournitures de bureau représentent une part très importante de l'activité, complétant la vente de livres généraux.",
+  "bookTypes": [
+    { "name": "Scolaire et parascolaire", "detail": "Manuels du programme officiel camerounais, cahiers d'exercices, dictionnaires, annales — secteur clé au Cameroun, surtout en période de rentrée (septembre-octobre)" },
+    { "name": "Littérature générale", "detail": "Romans, nouvelles, poésie, théâtre — inclut la littérature africaine et caribéenne (Mongo Beti, Oyono, Beyala, Miano, Amal)" },
+    { "name": "Littérature africaine", "detail": "Auteurs majeurs : Mongo Beti (Le Pauvre Christ de Bomba), Ferdinand Oyono (Une vie de boy), Calixthe Beyala, Léonora Miano, Djaïli Amadou Amal (Les Impatientes), Hemley Boum, Max Lobe, Patrice Nganang" },
+    { "name": "Jeunesse et albums", "detail": "Albums illustrés, contes africains, romans jeunesse, bandes dessinées éducatives" },
+    { "name": "BD et Manga", "detail": "BD franco-belge, comics américains, manga japonais — en croissance chez les jeunes Camerounais" },
+    { "name": "Sciences humaines et sociales", "detail": "Histoire du Cameroun et de l'Afrique, sociologie, philosophie, anthropologie, sciences politiques" },
+    { "name": "Religieux", "detail": "Bibles, catéchisme, ouvrages théologiques, littérature islamique — segment important au Cameroun" },
+    { "name": "Sciences et techniques", "detail": "Informatique, médecine, droit, ingénierie — principalement pour étudiants universitaires" },
+    { "name": "Livres pratiques", "detail": "Cuisine, jardinage, santé, développement personnel, entrepreneuriat" },
+    { "name": "Fournitures scolaires et bureautiques", "detail": "Cahiers, stylos, sacs, règles, calculatrices — produit d'appel et complément de revenu essentiel pour les librairies camerounaises" },
+    { "name": "Numérique", "detail": "E-books, clés USB, CD-ROM — encore marginal au Cameroun mais en développement" }
+  ],
+  "services": [
+    "Vente directe en magasin (livres, fournitures, papeterie)",
+    "Vente en ligne avec livraison (par moto-taxi dans les villes)",
+    "Commandes spéciales d'ouvrages importés de France",
+    "Réservation et précommande (notamment pour les manuels scolaires)",
+    "Photocopies et impression de documents",
+    "Services institutionnels : devis, factures, commandes groupées pour écoles et administrations",
+    "Animation culturelle : dédicaces, rencontres littéraires, clubs de lecture",
+    "Rachat et revente de livres d'occasion",
+    "Paiement mobile (Orange Money, MTN Mobile Money) pour les clients sans compte bancaire"
+  ],
+  "image": {
+    "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=1200&q=80",
+    "alt": "Livres colorés empilés",
+    "credit": "Sincerely Media — Unsplash"
+  }
+}

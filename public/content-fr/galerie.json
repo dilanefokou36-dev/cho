@@ -1,0 +1,83 @@
+{
+  "title": "Galerie — Librairies du Cameroun et du monde",
+  "intro": "Découvrez l'ambiance des librairies à travers des photographies du monde entier, avec un focus sur l'Afrique et le Cameroun. Toutes les images sont libres de droits (Unsplash) avec crédit auteur.",
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1572097560317-1189048dac38?w=1200&q=80",
+    "alt": "Vue artistique d'une librairie",
+    "credit": "Kiran I — Unsplash"
+  },
+  "images": [
+    {
+      "id": "g1",
+      "src": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=900&q=80",
+      "alt": "Allées de livres sous voûte",
+      "caption": "Grande librairie — architecture classique inspirant les librairies modernes africaines",
+      "credit": "Aaron Burden — Unsplash",
+      "location": "International"
+    },
+    {
+      "id": "g2",
+      "src": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=900&q=80",
+      "alt": "Librairie indépendante chaleureuse",
+      "caption": "Librairie indépendante — modèle qui inspire les librairies de quartier à Yaoundé et Douala",
+      "credit": "Anastasia Zhenina — Unsplash",
+      "location": "Cameroun"
+    },
+    {
+      "id": "g3",
+      "src": "https://images.unsplash.com/photo-1583526241256-cb18e8635e5b?w=900&q=80",
+      "alt": "Rayonnages en bois dans une bibliothèque",
+      "caption": "CLAC — Centres de Lecture partagés entre librairie et bibliothèque publique en Afrique",
+      "credit": "Gabby K — Unsplash",
+      "location": "Afrique"
+    },
+    {
+      "id": "g4",
+      "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=900&q=80",
+      "alt": "Livres ouverts et empilés",
+      "caption": "Littérature africaine et francophone — sélection d'ouvrages en librairie",
+      "credit": "Sincerely Media — Unsplash",
+      "location": "Littérature"
+    },
+    {
+      "id": "g5",
+      "src": "https://images.unsplash.com/photo-1736147936383-8eb3d7b83d7b?w=900&q=80",
+      "alt": "Client consultant des étagères",
+      "caption": "Parcours d'achat en librairie — l'expérience client au cœur du métier",
+      "credit": "Eliott Reyna — Unsplash",
+      "location": "Commerce"
+    },
+    {
+      "id": "g6",
+      "src": "https://images.unsplash.com/photo-1567629733542-916a5af7e72a?ww=900&q=80",
+      "alt": "Coin lecture confortable",
+      "caption": "Espace lecture — favoriser la lecture publique au Cameroun",
+      "credit": "Seven Shooter — Unsplash",
+      "location": "Lecture"
+    },
+    {
+      "id": "g7",
+      "src": "https://images.unsplash.com/photo-1704712828824-6f40a6c821eb?w=900&q=80",
+      "alt": "Livres d'occasion empilés",
+      "caption": "Marché du livre d'occasion — modèle essentiel pour l'accès au livre au Cameroun",
+      "credit": "Syd Wachs — Unsplash",
+      "location": "Occasion"
+    },
+    {
+      "id": "g8",
+      "src": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=900&q=80",
+      "alt": "Comptoir et caisse en librairie",
+      "caption": "Digitalisation du point de vente — encaissement mobile (Orange Money, MTN) au Cameroun",
+      "credit": "Christina @ wocintechchat.com — Unsplash",
+      "location": "Numérique"
+    },
+    {
+      "id": "g9",
+      "src": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=900&q=80",
+      "alt": "Étudiants en bibliothèque universitaire",
+      "caption": "Librairie universitaire — manuels et polycopiés pour étudiants camerounais",
+      "credit": "National Cancer Institute — Unsplash",
+      "location": "Universitaire"
+    }
+  ]
+}

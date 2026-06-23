@@ -1,0 +1,53 @@
+{
+  "title": "Outils du métier",
+  "intro": "Le libraire moderne s'appuie sur des logiciels métier, des réseaux de distribution et des outils de communication digitale. Au Cameroun, ces outils doivent s'adapter à un environnement où l'accès à internet peut être irrégulier et où le mobile money est roi.",
+  "tools": [
+    {
+      "name": "Logiciels de gestion et caisse",
+      "category": "Gestion de librairie",
+      "description": "Logiciels de caisse et gestion commerciale. Au Cameroun, beaucoup de librairies utilisent des solutions simples (Excel) ou des logiciels comptables classiques adaptés au contexte local.",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&q=80"
+    },
+    {
+      "name": "Tite-Live / Dilicom",
+      "category": "Distribution internationale",
+      "description": "Réseaux de commande et de référencement auprès des éditeurs et distributeurs français. Essentiels pour l'importation de livres au Cameroun depuis la France.",
+      "image": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=400&q=80"
+    },
+    {
+      "name": "Mobile Money",
+      "category": "Paiement",
+      "description": "Orange Money, MTN Mobile Money — moyens de paiement incontournables au Cameroun. Permettent aux clients d'acheter des livres sans carte bancaire, même pour de petits montants.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80"
+    },
+    {
+      "name": "Plateformes e-commerce locales",
+      "category": "Vente en ligne",
+      "description": "Boutiques en ligne et marketplaces adaptées au marché camerounais. Livraison par moto-taxi (bendskin) dans les grandes villes.",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&q=80"
+    },
+    {
+      "name": "Réseaux sociaux et WhatsApp",
+      "category": "Communication",
+      "description": "Facebook, Instagram, WhatsApp — outils de vente et de relation client très utilisés au Cameroun. Les libraires annoncent leurs arrivages et prennent les commandes par WhatsApp.",
+      "image": "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=400&q=80"
+    },
+    {
+      "name": "Gestion des importations",
+      "category": "Logistique",
+      "description": "Connaissance des procédures douanières, transitaires, fret maritime et aérien. Compétence spécifique au libraire camerounais qui importe la majorité de son stock.",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&q=80"
+    },
+    {
+      "name": "Éditeurs locaux et distribution",
+      "category": "Approvisionnement local",
+      "description": "Relations avec les éditeurs camerounais (Éditions Clé, Ifrikiya, Presses Universitaires, Akoma Mbah, Proximité) pour s'approvisionner en livres produits localement, souvent à des prix plus abordables.",
+      "image": "https://images.unsplash.com/photo-1456324504439-367cee6633fb?w=400&q=80"
+    }
+  ],
+  "image": {
+    "src": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=1200&q=80",
+    "alt": "Libraire utilisant un ordinateur en boutique",
+    "credit": "Christina @ wocintechchat.com — Unsplash"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "id": "slide-1",
+      "src": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&q=80",
+      "alt": "Allées de livres dans une grande librairie",
+      "title": "Le métier de libraire au Cameroun",
+      "subtitle": "Commerce, culture et conseil au service des lecteurs camerounais",
+      "credit": "Aaron Burden — Unsplash"
+    },
+    {
+      "id": "slide-2",
+      "src": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1920&q=80",
+      "alt": "Intérieur d'une librairie indépendante",
+      "title": "Des librairies de Yaoundé à Douala",
+      "subtitle": "Librairie des Écoles, Saint-Paul, CLAC — des espaces de vie culturelle",
+      "credit": "Anastasia Zhenina — Unsplash"
+    },
+    {
+      "id": "slide-3",
+      "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=1920&q=80",
+      "alt": "Livres empilés et ouverts",
+      "title": "Littérature camerounaise et africaine",
+      "subtitle": "Mongo Beti, Ferdinand Oyono, Calixthe Beyala, Djaïli Amadou Amal",
+      "credit": "Sincerely Media — Unsplash"
+    },
+    {
+      "id": "slide-4",
+      "src": "https://images.unsplash.com/photo-1507842217343-583bb7270b33?w=1920&q=80",
+      "alt": "Bibliothèque avec rayonnages en bois",
+      "title": "Se former au métier de libraire",
+      "subtitle": "Parcours au Cameroun et en Afrique francophone, de la formation à la pratique",
+      "credit": "Gabby K — Unsplash"
+    },
+    {
+      "id": "slide-5",
+      "src": "https://images.unsplash.com/photo-1524995997942-9b7c6a23849b?w=1920&q=80",
+      "alt": "Client consultant des étagères en librairie",
+      "title": "BookStore Business Core — Cameroun",
+      "subtitle": "Projet 3GI — Génie Informatique",
+      "credit": "Eliott Reyna — Unsplash"
+    }
+  ]
+}

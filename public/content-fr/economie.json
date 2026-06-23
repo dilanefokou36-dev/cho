@@ -1,0 +1,42 @@
+{
+  "title": "Modèle économique",
+  "intro": "La viabilité d'une librairie repose sur la marge commerciale, des services complémentaires et parfois des aides publiques. Au Cameroun, le modèle économique est fortement marqué par la saisonnalité scolaire, les coûts d'importation et l'adaptation au pouvoir d'achat local.",
+  "levers": [
+    {
+      "title": "Marge commerciale",
+      "description": "Achat à l'éditeur avec remise (35–40 %), revente au prix public. Sur un livre importé, la marge nette peut tomber à 20-25% après déduction des frais d'importation (fret, douane, TVA de 19,25%). Au Cameroun, la TVA de 19,25% sur les livres importés réduit significativement la compétitivité par rapport aux marchés occidentaux où la TVA sur les livres est réduite (5,5% en France)."
+    },
+    {
+      "title": "Vente de fournitures scolaires",
+      "description": "Au Cameroun, la vente de cahiers, stylos, sacs et manuels scolaires représente 40 à 60% du chiffre d'affaires d'une librairie générale. La rentrée scolaire (août-octobre) est la période la plus importante de l'année : les librairies peuvent réaliser 30 à 50% de leur chiffre d'affaires annuel pendant cette période."
+    },
+    {
+      "title": "Services complémentaires",
+      "description": "Photocopies, impressions, plastification, reliure — services très demandés au Cameroun par les étudiants et les administrations. Les photocopies de polycopiés de cours sont un service essentiel dans les librairies proches des campus universitaires."
+    },
+    {
+      "title": "Livres d'occasion",
+      "description": "Revente de livres d'occasion — marge plus élevée (hors prix imposé). Marché très développé au Cameroun : les manuels scolaires d'occasion se vendent à 50-70% du prix neuf sur les marchés populaires (Mfoundi, Congo, Marché Central)."
+    },
+    {
+      "title": "Événements culturels",
+      "description": "Dédicaces, festivals, rencontres littéraires. La FILYA (Foire Internationale du Livre de Yaoundé), le Salon du Livre de Yaoundé et le Marché de la Poésie sont des moments clés qui permettent d'écouler des stocks d'auteurs locaux et de créer des partenariats."
+    },
+    {
+      "title": "E-commerce et paiement mobile",
+      "description": "Ventes en ligne via des plateformes locales. Avec un taux de bancarisation d'environ 15-20% au Cameroun, le mobile money (Orange Money, MTN Mobile Money) est un levier essentiel pour toucher une clientèle plus large et faciliter les transactions."
+    }
+  ],
+  "revenue": [
+    { "source": "Vente livres neufs (dont scolaires)", "share": "50 – 70 %" },
+    { "source": "Fournitures scolaires et papeterie", "share": "15 – 30 %" },
+    { "source": "Livres d'occasion", "share": "5 – 15 %" },
+    { "source": "Services (photocopies, impressions)", "share": "5 – 10 %" },
+    { "source": "Événements & animations", "share": "2 – 5 %" }
+  ],
+  "image": {
+    "src": "https://images.unsplash.com/photo-1595123550441-d377e017de6a?w=600&q=80",
+    "alt": "Livres anciens et ouvrages d'occasion",
+    "credit": "Syd Wachs — Unsplash"
+  }
+}

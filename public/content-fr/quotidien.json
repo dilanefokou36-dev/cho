@@ -1,0 +1,66 @@
+{
+  "title": "La réalité du métier",
+  "intro": "Le quotidien d'un libraire est bien plus varié qu'on ne l'imagine. Entre conseil client, gestion des stocks, commandes et animation culturelle, chaque journée est différente. Au Cameroun, le libraire fait face à des réalités spécifiques : saisonnalité scolaire marquée, dédouanement des importations et gestion des coupures électriques.",
+  "dailyLife": [
+    {
+      "time": "Matin (8h-12h)",
+      "activities": "Réception des livraisons (importées ou locales), vérification des colis, mise en rayon des nouveautés, consultation des commandes fournisseurs. Au Cameroun, le libraire vérifie aussi l'état des marchandises après le transport maritime.",
+      "icon": "📦"
+    },
+    {
+      "time": "Mi-journée (12h-15h)",
+      "activities": "Accueil et conseil des clients, passage en caisse (espèces, carte, Orange Money/MTN Mobile Money), réponses aux appels et messages. Période d'affluence des élèves et étudiants en quête de manuels scolaires.",
+      "icon": "👥"
+    },
+    {
+      "time": "Après-midi (15h-17h30)",
+      "activities": "Gestion administrative : factures, retours éditeurs, réassort, préparation des commandes spéciales, comptabilité. Suivi des démarches douanières pour les importations de livres.",
+      "icon": "📋"
+    },
+    {
+      "time": "Soirée (17h30-19h)",
+      "activities": "Animations culturelles (rencontres avec des auteurs camerounais, clubs de lecture), nettoyage et rangement, clôture de caisse. Pendant la rentrée scolaire, les horaires peuvent s'allonger considérablement.",
+      "icon": "🎭"
+    }
+  ],
+  "realities": [
+    {
+      "title": "Relation client au Cameroun",
+      "description": "Le libraire camerounais conseille une clientèle variée : élèves et étudiants (manuels scolaires, ouvrages académiques), professionnels (documentation technique) et lecteurs passionnés de littérature africaine. Le conseil personnalisé est essentiel pour fidéliser une clientèle au pouvoir d'achat limité.",
+      "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80",
+      "credit": "Priscilla Du Preez — Unsplash"
+    },
+    {
+      "title": "Gestion des stocks et approvisionnement",
+      "description": "Au Cameroun, la gestion des stocks est particulièrement complexe : 80% des livres sont importés de France avec des délais de 4 à 8 semaines par voie maritime. Le libraire doit anticiper les commandes des mois à l'avance, gérer les ruptures de stock et composer avec les coûts d'importation élevés (fret, assurance, dédouanement).",
+      "image": "https://images.unsplash.com/photo-1481121749114-c5488c93b0d1?w=800&q=80",
+      "credit": "Micheile — Unsplash"
+    },
+    {
+      "title": "Veille littéraire et production locale",
+      "description": "Le libraire camerounais doit connaître à la fois la production française (best-sellers, prix littéraires) et la littérature africaine. Les maisons d'édition locales (Éditions Clé, Ifrikiya, Akoma Mbah, Presses Universitaires de Yaoundé) publient une production riche mais souvent mal distribuée. Le libraire joue un rôle clé dans la promotion des auteurs camerounais.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
+      "credit": "Alysha Rosly — Unsplash"
+    },
+    {
+      "title": "Animation culturelle et événements",
+      "description": "Au Cameroun, les librairies organisent des rencontres avec des auteurs (Mongo Beti, Calixthe Beyala, Djaïli Amadou Amal, Max Lobe), des séances de dédicaces et des clubs de lecture. La Foire Internationale du Livre de Yaoundé (FILYA) et le Salon du Livre sont des rendez-vous incontournables qui rythment la vie littéraire camerounaise.",
+      "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+      "credit": "Ilya Pavlov — Unsplash"
+    }
+  ],
+  "testimonial": {
+    "quote": "Au Cameroun, être libraire c'est être plus qu'un vendeur de livres. C'est être un passeur de culture, un soutien scolaire pour les élèves, un promoteur de la littérature africaine. Chaque jour est un combat contre les contraintes logistiques, mais la passion du livre est plus forte.",
+    "author": "Témoignage recueilli auprès d'un libraire de Yaoundé"
+  },
+  "video": {
+    "title": "Le métier de libraire en Afrique",
+    "embedUrl": "https://www.youtube.com/embed/Fpz_ksOyhR8",
+    "description": "Découvrez le quotidien d'un libraire à travers ce reportage."
+  },
+  "heroImage": {
+    "src": "https://images.unsplash.com/photo-1526248283201-fafd30eb2b90?w=1200&q=80",
+    "alt": "Libraire conseillant un client",
+    "credit": "Eliott Reyna — Unsplash"
+  }
+}

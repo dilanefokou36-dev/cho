@@ -1,0 +1,28 @@
+{
+  "title": "Formation & compétences",
+  "intro": "Le métier de libraire s'exerce après une formation commerciale ou spécialisée « métiers du livre », complétée par une culture littéraire exigeante. Au Cameroun, les parcours de formation sont variés, allant du diplôme universitaire à la formation sur le tas.",
+  "diplomas": [
+    { "level": "Baccalauréat", "name": "Bac général (littéraire) ou Bac technique commercial", "skills": "Culture générale, bases de la gestion, expression écrite et orale" },
+    { "level": "Bac+2 (Cameroun)", "name": "BTS Commerce, BTS Communication, BTS Documentation", "skills": "Gestion commerciale, marketing, techniques documentaires" },
+    { "level": "Bac+3 (Cameroun)", "name": "Licence en Bibliothéconomie et Sciences de l'Information (Université de Yaoundé I, Université de Douala)", "skills": "Gestion de bibliothèque, catalogage, médiation culturelle, management de l'information" },
+    { "level": "Bac+3", "name": "Licence Pro Métiers du Livre (France)", "skills": "Édition, diffusion, librairie, bibliothéconomie" },
+    { "level": "Bac+5", "name": "Master Métiers du Livre (France, Université Paris Nanterre, Lyon, Aix-Marseille)", "skills": "Management éditorial, politique culturelle, stratégie commerciale" },
+    { "level": "Formation professionnelle", "name": "CFA Librairie (ex-INFL) — France, formation en alternance", "skills": "Formation pratique dédiée aux libraires" },
+    { "level": "Formation informelle", "name": "Formation sur le tas en librairie, stages et apprentissage auprès de libraires expérimentés", "skills": "Très répandue au Cameroun : apprentissage pratique des techniques de vente, gestion de stock et relation client" }
+  ],
+  "skills": [
+    "Culture littéraire large (roman, polar, BD, manga, jeunesse, essais, littérature africaine et caribéenne)",
+    "Connaissance des auteurs camerounais et africains (Mongo Beti, Ferdinand Oyono, Calixthe Beyala, Léonora Miano, Djaïli Amadou Amal, Hemley Boum)",
+    "Sens du conseil et de l'écoute client",
+    "Gestion commerciale : commandes, retours, inventaires, marges",
+    "Merchandising : vitrines, tables, têtes de gondole",
+    "Outils numériques : logiciels de caisse, gestion de stock, plateformes e-commerce",
+    "Animation culturelle et organisation d'événements littéraires (FILYA, Salon du Livre de Yaoundé)",
+    "Maîtrise des systèmes de paiement mobile (Orange Money, MTN Mobile Money) très utilisés au Cameroun"
+  ],
+  "image": {
+    "src": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80",
+    "alt": "Étudiante lisant dans une bibliothèque universitaire",
+    "credit": "National Cancer Institute — Unsplash"
+  }
+}
