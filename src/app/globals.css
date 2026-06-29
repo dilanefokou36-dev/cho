@@ -4,7 +4,7 @@
 
 :root {
   --canvas: #f3f3f3;
-  --ink: #343434;
+  --ink: #1a1a1a;
   --accent: #ff6944;
 }
 
@@ -14,23 +14,37 @@ html {
 
 body {
   @apply bg-canvas text-ink antialiased;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.text-sm {
+  font-size: 0.9375rem;
+}
+
+.text-xs {
+  font-size: 0.8125rem;
 }
 
 @layer components {
   .page-container {
-    @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+    @apply w-full;
+  }
+
+  .page-container-narrow {
+    @apply mx-auto max-w-5xl px-6 sm:px-8 lg:px-10;
   }
 
   .section-title {
-    @apply font-serif text-3xl font-bold tracking-tight text-heading sm:text-4xl;
+    @apply font-serif text-3xl font-bold tracking-tight text-heading sm:text-4xl lg:text-5xl;
   }
 
   .section-intro {
-    @apply mt-4 max-w-3xl text-lg leading-relaxed text-ink/80;
+    @apply mt-4 max-w-4xl text-lg leading-relaxed text-ink/80 sm:text-xl;
   }
 
   .card-minimal {
-    @apply rounded-lg bg-white p-6 shadow-card transition-shadow duration-300 hover:shadow-card-hover;
+    @apply rounded-xl bg-white p-6 shadow-card transition-shadow duration-300 hover:shadow-card-hover sm:p-8;
   }
 
   .link-accent {
@@ -38,10 +52,10 @@ body {
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-md;
+    @apply inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 font-medium text-white transition-all hover:bg-accent-hover hover:shadow-md;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center rounded-full border-2 border-ink/15 bg-white px-6 py-3 text-sm font-medium text-ink transition-all hover:border-accent hover:text-accent;
+    @apply inline-flex items-center justify-center rounded-full border-2 border-ink/15 bg-white px-6 py-3 font-medium text-ink transition-all hover:border-accent hover:text-accent;
   }
 }

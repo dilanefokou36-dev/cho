@@ -7,15 +7,88 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Role {
+  VISITOR
+  LIBRAIRE
+  ADMIN
+}
+
+enum BookStatus {
+  DRAFT
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum LibraireStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
 model User {
   id        Int      @id @default(autoincrement())
   email     String   @unique
   password  String
   name      String?
-  role      String   @default("USER")
+  role      Role     @default(VISITOR)
+  phone     String?
+  city      String?
+  bio       String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  contents  SiteContent[]
+
+  messagesSent     Message[]     @relation("SentMessages")
+  messagesReceived Message[]     @relation("ReceivedMessages")
+  contents         SiteContent[]
+  libraireProfile  Libraire?
+}
+
+model Libraire {
+  id          Int            @id @default(autoincrement())
+  userId      Int            @unique
+  user        User           @relation(fields: [userId], references: [id])
+  storeName   String
+  description String?
+  address     String?
+  phone       String?
+  website     String?
+  status      LibraireStatus @default(PENDING)
+  validUntil  DateTime?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  books        Book[]
+  messages     Message[] @relation("LibraireMessages")
+}
+
+model Book {
+  id          Int        @id @default(autoincrement())
+  libraireId  Int
+  libraire    Libraire   @relation(fields: [libraireId], references: [id])
+  title       String
+  author      String?
+  description String?
+  price       Float?
+  category    String?
+  imageUrl    String?
+  status      BookStatus @default(DRAFT)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+}
+
+model Message {
+  id          Int      @id @default(autoincrement())
+  subject     String?
+  content     String
+  senderId    Int
+  sender      User     @relation("SentMessages", fields: [senderId], references: [id])
+  receiverId  Int
+  receiver    User     @relation("ReceivedMessages", fields: [receiverId], references: [id])
+  libraireId  Int?
+  libraire    Libraire? @relation("LibraireMessages", fields: [libraireId], references: [id])
+  read        Boolean  @default(false)
+  createdAt   DateTime @default(now())
 }
 
 model SiteContent {

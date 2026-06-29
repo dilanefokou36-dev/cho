@@ -3,6 +3,7 @@ export type NavCategory = { label: string; items: NavItem[] };
 
 export const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "Accueil" },
+  { href: "/devenir-libraire", label: "Devenir libraire" },
   { href: "/metier", label: "Le métier" },
   { href: "/quotidien", label: "Le quotidien" },
   { href: "/difficultes", label: "Difficultés" },
@@ -22,6 +23,7 @@ export const NAV_CATEGORIES: NavCategory[] = [
   {
     label: "Présentation",
     items: [
+      { href: "/devenir-libraire", label: "Devenir libraire" },
       { href: "/metier", label: "Le métier" },
       { href: "/quotidien", label: "Le quotidien" },
       { href: "/difficultes", label: "Difficultés" },

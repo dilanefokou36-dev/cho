@@ -4,7 +4,7 @@ import { prisma } from "@/lib/db";
 
 export async function POST(request: Request) {
   try {
-    const { name, email, password } = await request.json();
+    const { name, email, password, role, storeName, phone, city } = await request.json();
 
     if (!email || !password) {
       return NextResponse.json({ error: "Email et mot de passe requis" }, { status: 400 });
@@ -16,10 +16,29 @@ export async function POST(request: Request) {
     }
 
     const hashed = await bcrypt.hash(password, 12);
+    const userRole = role === "LIBRAIRE" ? "LIBRAIRE" : "VISITOR";
 
     const user = await prisma.user.create({
-      data: { name, email, password: hashed, role: "USER" },
+      data: {
+        name: name || email.split("@")[0],
+        email,
+        password: hashed,
+        role: userRole,
+        phone: phone || null,
+        city: city || null,
+      },
     });
+
+    if (userRole === "LIBRAIRE") {
+      await prisma.libraire.create({
+        data: {
+          userId: user.id,
+          storeName: storeName || `Librairie de ${user.name}`,
+          phone: phone || null,
+          status: "PENDING",
+        },
+      });
+    }
 
     return NextResponse.json({
       id: user.id,

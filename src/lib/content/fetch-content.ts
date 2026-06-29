@@ -1,8 +1,11 @@
-import { apiFetch } from "@/lib/api/client";
 import { loadJson } from "@/lib/content/loader";
 import type { CarouselSlide } from "@/types/content";
 
-const REVALIDATE = 60;
+async function fetchFromApi<T>(url: string): Promise<T> {
+  const res = await fetch(url, { next: { revalidate: 60 } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
 
 async function withFallback<T>(
   label: string,
@@ -20,9 +23,12 @@ async function withFallback<T>(
 }
 
 export async function getPageContent<T>(slug: string, fallbackFile: string): Promise<T> {
-  return withFallback(
+  return withFallback<T>(
     slug,
-    () => apiFetch<T>(`/api/v1/content/pages/${slug}`, { revalidate: REVALIDATE }),
+    async () => {
+      const data = await fetchFromApi<{ content: string }>(`/api/content/${slug}`);
+      return JSON.parse(data.content) as T;
+    },
     () => Promise.resolve(loadJson<T>(fallbackFile))
   );
 }
@@ -30,7 +36,10 @@ export async function getPageContent<T>(slug: string, fallbackFile: string): Pro
 export async function getSiteContent<T>(): Promise<T> {
   return withFallback(
     "site",
-    () => apiFetch<T>("/api/v1/content/site", { revalidate: REVALIDATE }),
+    async () => {
+      const data = await fetchFromApi<{ content: string }>("/api/content/site");
+      return JSON.parse(data.content) as T;
+    },
     () => Promise.resolve(loadJson<T>("site.json"))
   );
 }
@@ -39,10 +48,9 @@ export async function getCarouselSlides(): Promise<CarouselSlide[]> {
   return withFallback(
     "carousel",
     async () => {
-      const data = await apiFetch<{ slides: CarouselSlide[] }>("/api/v1/carousel", {
-        revalidate: REVALIDATE,
-      });
-      return data.slides;
+      const data = await fetchFromApi<{ content: string }>("/api/content/carousel");
+      const parsed = JSON.parse(data.content);
+      return parsed.slides as CarouselSlide[];
     },
     () => {
       const data = loadJson<{ slides: CarouselSlide[] }>("carousel.json");

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Footer } from "@/components/layout/Footer";
-import { Header } from "@/components/layout/Header";
+import { Sidebar } from "@/components/layout/Sidebar";
 import { ChatBot } from "@/components/chatbot/ChatBot";
 import { getSiteContent } from "@/lib/content/fetch-content";
 import AuthProvider from "./AuthProvider";
@@ -39,11 +38,12 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="flex min-h-screen flex-col font-sans">
+      <body className="flex min-h-screen font-sans">
         <AuthProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <div className="flex">
+            <Sidebar />
+            <main className="min-h-screen flex-1 bg-canvas px-8 py-6 lg:px-12 xl:px-16">{children}</main>
+          </div>
           <ChatBot />
         </AuthProvider>
       </body>
